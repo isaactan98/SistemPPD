@@ -1,0 +1,61 @@
+.font-14{
+    font-size: 14px;
+}
+
+.font-16{
+    font-size: 16px;
+}
+
+.font-24{
+    font-size: 24px;
+}
+
+.card-content-img{
+    width: 35rem;
+}
+
+.cursor-pointer{
+   cursor: pointer; 
+}
+
+.input-error{
+    font-size: 12px;
+    color: #ea3737;
+    padding-left: 5px;
+    display: none;
+}
+
+/* fix sidebar */
+.sidebar-fixed{
+    position: fixed;
+}
+
+.content-wrapper-pl{
+    padding-left: 14rem;
+}
+
+@media (max-width: 768px) {
+    .content-wrapper-pl {
+        padding-left: 6rem;
+    }
+  
+    .content-wrapper-pl.toggled{
+        padding-left: 0 !important;
+    }
+}
+
+@media (max-width: 496px) {
+    .content-wrapper-pl{
+        padding-left: 0;
+    }
+    
+    .content-wrapper-pl.open{
+        padding-left: 6rem;
+    }
+    
+    .sidebar.open {
+    width: 6.5rem !important;
+    min-height: 100vh;
+}
+}
+
